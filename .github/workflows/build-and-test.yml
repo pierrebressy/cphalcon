@@ -162,7 +162,7 @@ jobs:
           fi
 
       - name: Setup PHP
-        uses: shivammathur/setup-php@v2.1.4
+        uses: shivammathur/setup-php@2.1.4
         with:
           php-version: ${{ matrix.php-versions }}
           ini-values: apc.enable_cli=on, session.save_path=/tmp
